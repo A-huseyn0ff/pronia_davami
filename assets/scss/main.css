@@ -1,0 +1,214 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.salam {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.main-slider-div {
+  background-color: #f9efe9;
+  height: 730px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-slider-div .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+}
+.main-slider-div .container button {
+  border: none;
+  padding: 20px;
+  background-color: white;
+  transition: 0.4s;
+}
+.main-slider-div .container button:hover {
+  background: #abd373;
+  color: white;
+}
+.main-slider-div .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-slider-div .container .row .col-txt {
+  height: 280px;
+  padding-right: 120px;
+}
+.main-slider-div .container .row .col-txt span {
+  height: 33%;
+  font-size: 50px;
+}
+.main-slider-div .container .row .col-txt h2 {
+  font-size: 70px;
+  height: 33%;
+}
+.main-slider-div .container .row .col-txt p {
+  font-size: 20px;
+  height: 33%;
+}
+.main-slider-div .container .row .col-txt .discover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #abd373;
+  border-radius: 30px;
+  padding: 25px 39px;
+  border: 1px solid;
+  transition: 0.5s;
+}
+.main-slider-div .container .row .col-txt .discover:hover {
+  background-color: #525252;
+}
+
+.section-cards {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-cards .container {
+  height: 108px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-cards .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 100px;
+}
+.section-cards .container .row .col {
+  height: 50px;
+  width: 308px;
+  border: 2px dotted #abd373;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.section-cards .container .row .col .shipping-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.section-cards .container .row .col .shipping-item .shipping-content h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.section-cards .container .row .col .shipping-item .shipping-content p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section-ourproducts {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-ourproducts .container {
+  width: 80%;
+}
+.section-ourproducts .container .section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.section-ourproducts .container .section-title span {
+  border: 1px solid #abd373;
+  width: 100px;
+}
+.section-ourproducts .container .section-title .ourproducts-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+.section-ourproducts .container .col .section-nav-buttons {
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.section-ourproducts .container .col .section-nav-buttons .section-nav-button {
+  padding: 10px 25px;
+  border: 1px solid rgb(206, 204, 204);
+  transition: 0.5s;
+}
+.section-ourproducts .container .col .section-nav-buttons .section-nav-button a {
+  transition: 0.5s;
+  width: 91px;
+  text-decoration: none;
+  color: black;
+}
+.section-ourproducts .container .col .section-nav-buttons .section-nav-button:hover {
+  border: 1px dashed #abd373;
+}
+.section-ourproducts .container .col .section-nav-buttons .section-nav-button:hover a {
+  color: #abd373;
+}
+.section-ourproducts .container .col .tab-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-ourproducts .container .col .tab-content .content-products {
+  width: 1303px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=main.css.map */

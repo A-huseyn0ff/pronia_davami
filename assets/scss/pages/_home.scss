@@ -1,0 +1,169 @@
+.main-slider-div{
+    background-color: #f9efe9;
+    height: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    button{
+border: none;
+padding: 20px;
+background-color: white;
+transition: 0.4s;
+    }
+    button:hover{
+        background: #abd373;
+        color: white;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .col-txt{
+       height: 280px;
+           
+           span{
+            height: 33%;
+font-size: 50px;
+           }
+           h2{
+font-size: 70px;
+height: 33%;
+           }
+           p{
+font-size: 20px;
+height: 33%;
+           }
+           .discover{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            background-color: #abd373;
+            border-radius: 30px;
+            padding: 25px 39px;
+            border: 1px solid;
+            transition: 0.5s;
+           }
+           .discover:hover{
+            background-color: #525252;
+           }
+            padding-right: 120px;
+        }
+    }
+}
+}
+        .section-cards{
+            padding-top: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .container{
+                height: 108px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .row{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: row;
+                    gap: 100px;
+                    .col{
+                        height: 50px;
+                        width: 308px;
+                        border: 2px dotted #abd373;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 20px;
+                        .shipping-item{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 20px;
+                            .shipping-content{
+                                h2{
+                                    font-size: 24px;
+                                    font-weight: 700;
+                                }
+                                p{
+                                    font-size: 20px;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+            }
+        }
+    }
+    .section-ourproducts{
+        padding-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container{
+        //     display: flex;
+        // align-items: center;
+        // justify-content: center;
+width: 80%;
+.section-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    span{
+        border: 1px solid #abd373;
+        width: 100px;
+    }
+.ourproducts-title{
+    font-size: 36px;
+    font-weight: 700;
+}
+}
+.col{
+    .section-nav-buttons{
+        padding: 50px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        .section-nav-button{
+            padding: 10px 25px ;
+            border: 1px solid rgb(206, 204, 204);
+          transition: 0.5s;
+            a{
+                transition: 0.5s;
+                width: 91px;
+                text-decoration: none;
+                color: black;
+            }
+        }
+        .section-nav-button:hover{
+            border: 1px dashed #abd373;
+            a{
+                color: #abd373;
+            }
+        }
+    }
+   
+    .tab-content{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+        .content-products{
+            width: 1303px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    flex-wrap: wrap;
+            .col-product{
+                
+            }
+        }
+    }
+}
+        }
+    }
